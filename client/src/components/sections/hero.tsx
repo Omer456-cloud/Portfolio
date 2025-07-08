@@ -46,21 +46,24 @@ export function Hero() {
               <Button onClick={handleContactClick} size="lg" className="shadow-lg">
                 Get In Touch
               </Button>
-              <Button 
-                variant="outline" 
-                size="lg" 
-                onClick={handleDownloadCV}
-                className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+              <a
+                href="/OMER-NAZEER_1751400444324.pdf"
+                download
+                className="inline-flex items-center border-primary text-primary hover:bg-primary hover:text-primary-foreground border rounded-lg px-6 py-3 text-lg font-medium transition-colors shadow-lg"
               >
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
-              </Button>
+              </a>
             </div>
           </div>
           <div className="animate-fade-in">
             <div className="relative">
-              <div className="w-80 h-80 mx-auto bg-gradient-to-br from-primary/80 to-primary rounded-full flex items-center justify-center shadow-2xl">
-                <User className="text-8xl text-white opacity-60" />
+              <div className="w-80 h-80 mx-auto bg-gradient-to-br from-primary/80 to-primary rounded-full flex items-center justify-center shadow-2xl overflow-hidden">
+                <img
+                  src="/src/assets/omer.jpg"
+                  alt="Omer Nazeer"
+                  className="w-full h-full object-cover rounded-full"
+                />
               </div>
               <div className="absolute -bottom-4 -right-4 bg-emerald-500 text-white p-4 rounded-full shadow-lg">
                 <svg className="w-8 h-8" fill="currentColor" viewBox="0 0 20 20">
