@@ -77,7 +77,7 @@ export function Contact() {
                     <Mail className="h-6 w-6 text-primary" />
                   </div>
                   <div>
-                    <p className="font-medium">omer.nazeer@email.com</p>
+                    <p className="font-medium">omernazeerawan@email.com</p>
                     <p className="text-sm text-muted-foreground">Email me anytime</p>
                   </div>
                 </div>
@@ -86,7 +86,7 @@ export function Contact() {
                     <Phone className="h-6 w-6 text-emerald-600" />
                   </div>
                   <div>
-                    <p className="font-medium">+92 XXX XXXXXXX</p>
+                    <p className="font-medium">+92 3345666837</p>
                     <p className="text-sm text-muted-foreground">Available for calls</p>
                   </div>
                 </div>
@@ -107,22 +107,18 @@ export function Contact() {
               <h4 className="font-semibold mb-4">Connect on Social</h4>
               <div className="flex space-x-4">
                 <a 
-                  href="#" 
+                  href="https://www.linkedin.com/in/omernazeerawan" 
+                  target="_blank" rel="noopener noreferrer"
                   className="w-12 h-12 bg-blue-600 hover:bg-blue-700 text-white rounded-lg flex items-center justify-center transition-colors"
                 >
                   <FaLinkedin className="h-5 w-5" />
                 </a>
                 <a 
-                  href="#" 
+                  href="https://github.com/Omer456-cloud" 
+                  target="_blank" rel="noopener noreferrer"
                   className="w-12 h-12 bg-gray-800 hover:bg-gray-900 dark:bg-gray-700 dark:hover:bg-gray-600 text-white rounded-lg flex items-center justify-center transition-colors"
                 >
                   <FaGithub className="h-5 w-5" />
-                </a>
-                <a 
-                  href="#" 
-                  className="w-12 h-12 bg-blue-400 hover:bg-blue-500 text-white rounded-lg flex items-center justify-center transition-colors"
-                >
-                  <FaTwitter className="h-5 w-5" />
                 </a>
               </div>
             </div>
