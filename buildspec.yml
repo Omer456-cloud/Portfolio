@@ -3,18 +3,20 @@ version: 0.2
 phases:
   install:
     commands:
+      - npm install
       - cd client
       - npm install
       - npm run build
       - cd ..
-      - cd server
-      - npm install
-      # If you have a backend build step, add it here (e.g., npm run build)
-      - cd ..
-      - cp -r dist/public server/public # Copy built frontend to backend's public folder
+      - mkdir -p dist/public
+      - cp -r client/dist/* dist/public/
   build:
-    commands: []
+    commands:
+      - npm run build
 artifacts:
-  base-directory: server
   files:
-    - '**/*' 
+    - dist/**
+    - package.json
+    - package-lock.json
+    - buildspec.yml
+    - .ebextensions/** # if you have any 
