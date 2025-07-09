@@ -15,9 +15,6 @@ phases:
   build:
     commands: []
 artifacts:
+  base-directory: server
   files:
-    - server/**
-    - server/package.json
-    - server/package-lock.json
-    - buildspec.yml
-    - .ebextensions/** # if you have any 
+    - '**/*' 
