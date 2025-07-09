@@ -4,14 +4,6 @@ phases:
   install:
     commands:
       - npm install
-      - cd client
-      - npm install
-      - npm run build
-      - cd ..
-      - mkdir -p dist/public
-      - cp -r client/dist/* dist/public/
-  build:
-    commands:
       - npm run build
 artifacts:
   files:
@@ -19,4 +11,3 @@ artifacts:
     - package.json
     - package-lock.json
     - buildspec.yml
-    - .ebextensions/** # if you have any 
