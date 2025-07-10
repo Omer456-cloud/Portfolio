@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { User, Download } from "lucide-react";
 import { motion, useMotionValue, useTransform } from "framer-motion";
 import { useRef } from "react";
+import omerPic from '@/assets/omer.jpg';
 
 export function Hero() {
   const handleContactClick = () => {
@@ -99,7 +100,7 @@ export function Hero() {
                 onMouseLeave={handleMouseLeave}
               >
                 <img
-                  src="/src/assets/omer.jpg"
+                  src={omerPic}
                   alt="Omer Nazeer"
                   className="w-full h-full object-cover rounded-full"
                 />
