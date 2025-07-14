@@ -1,0 +1,6 @@
+projectKey=PersonalShowcase
+serverUrl=http://localhost:9000
+serverVersion=25.7.0.110598
+dashboardUrl=http://localhost:9000/dashboard?id=PersonalShowcase
+ceTaskId=17d5a8a7-8d3f-4bdb-81f4-1d082f79a85a
+ceTaskUrl=http://localhost:9000/api/ce/task?id=17d5a8a7-8d3f-4bdb-81f4-1d082f79a85a
